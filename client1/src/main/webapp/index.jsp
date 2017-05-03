@@ -12,7 +12,7 @@
 		AttributePrincipal principal = (AttributePrincipal) request.getUserPrincipal();  
 		Map<String, Object> attributes = principal.getAttributes();  
 		for (String key : attributes.keySet()) {  
-		    out.println(key + "/" + attributes.get(key) + "<br>");  
+		    out.println(key + ":" + attributes.get(key) + "<br>");  
 		}  
 	%>
 </body>
