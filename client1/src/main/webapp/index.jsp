@@ -7,7 +7,7 @@
 <title>cas client 1</title>
 </head>
 <body>
-	This is cas client 1.<br>
+	This is cas client 1.<hr>
 	<%
 		AttributePrincipal principal = (AttributePrincipal) request.getUserPrincipal();  
 		Map<String, Object> attributes = principal.getAttributes();  
